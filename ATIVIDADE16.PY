@@ -1,0 +1,12 @@
+PESO_QUEIJO = 0.50
+PESO_PRESUNTO = 0.50
+PESO_BURGER = 0.100
+
+QUANTIDADE_SANDUICHE = int(input("Digite a quantidade de sanduíches: "))
+PESO_QUEIJO_TOTAL =  QUANTIDADE_SANDUICHE * (PESO_QUEIJO * 2)
+PESO_PRESUNTO_TOTAL = QUANTIDADE_SANDUICHE *PESO_PRESUNTO
+PESO_BURGER_TOTAL = QUANTIDADE_SANDUICHE * PESO_BURGER  
+
+print (f"Peso total do queijo: {PESO_QUEIJO_TOTAL:.2f} kg")
+print (f"Peso total do presunto: {PESO_PRESUNTO_TOTAL:.2f} kg")
+print (f"Peso total do burger: {PESO_BURGER_TOTAL:.2f} kg")
